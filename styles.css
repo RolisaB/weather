@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  height: 100vh;
+  background: url(sky3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 100%;
+  padding: 20px;
+}
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.form-container:hover {
+  transform: translateY(-5px);
+}
+.form-container h2 {
+  color: #2193b0;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.form-container h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.form-container p {
+  color: #444;
+  font-size: 18px;
+  margin: 8px 0;
+}
+.form-container input[type="search"] {
+  width: 70%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+#search {
+  background: #00aaff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+#search:hover {
+  background: #0371a8;
+}
+#temp {
+  color: #222;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#details {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
